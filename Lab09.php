@@ -56,14 +56,14 @@ include 'travel-data.inc.php';
 							<a href="detail.php?id='.$v["id"].'" class="img-responsive">
 							<img src="images/square/'.$v["path"].'" alt="'.$v["title"].'">
 							<div class="caption">
-   //              			<div class="blur">
-   //              			</div>
-   //              				<div class="caption-text">
-   //              				<h1>'.$v["title"].'</h1>
-   //              				</div>
-   //              			</div>
-   //              		</a>
-			// 		</li>';
+                 			<div class="blur">
+                 			</div>
+                 				<div class="caption-text">
+                 				<h1>'.$v["title"].'</h1>
+                 				</div>
+                 			</div>
+                 		</a>
+			 		</li>';
 				}
           /* you will need to fill this place with appropriate PHP */ 
           /* hint: use array and loop */
