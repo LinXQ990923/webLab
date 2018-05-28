@@ -34,6 +34,7 @@ include 'travel-data.inc.php';
               <a role="button" class="btn btn-default" href="list.php">All</a>
            
               <?php   
+				asort($countries);
 				foreach($countries as $k => $name){
 					print '<a href="list.php?country='.$name.'" role="button" class="btn btn-default">'.$name.'</a>';
 				}
